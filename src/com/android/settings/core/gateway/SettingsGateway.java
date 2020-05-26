@@ -148,6 +148,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.fusion.reactor.FusionReactor;
 public class SettingsGateway {
 
     /**
@@ -284,6 +285,7 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName()
+            FusionReactor.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
